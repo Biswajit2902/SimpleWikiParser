@@ -89,6 +89,13 @@ class WikiMediaDumpParser(object):
             "English" :{"code":"en", "locale":"English"},
             "Hindi" :{"code":"hi", "locale":"हिन्दी"},
             "Telugu" :{"code":"te", "locale":"తెలుగు"},
+            "Tamil" : {"code":"ta", "locale":"தமிழ்"},
+            "Kannada" : {"code":"kn", "locale":"ಕನ್ನಡ"},
+            "Gujarati" : {"code":"gu", "locale":"ગુજરાતી"},
+            "Marathi" : {"code":"mr", "locale":"मराठी"},
+            "Malayalam" : {"code":"ml", "locale":"മലയാളം"},
+            "Bangla":{"code":"bn", "locale":"বাংলা"},
+            "Bengali":{"code":"bn", "locale":"বাংলা"},
             "Odia" :{"code":"or", "locale":"ଓଡ଼ିଆ"}
         }
         return self.wiki_language_map.get(language)["code"], self.wiki_language_map.get(language)["locale"]
