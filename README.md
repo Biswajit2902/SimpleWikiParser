@@ -1,6 +1,11 @@
 # SimpleWikiParser
 An Simplified Wiki Data Parser
 
+## Installation
+```bash
+pip install git+https://github.com/Biswajit2902/SimpleWikiParser.git
+```
+
 ## Usage:
 ```python
 from wikiparser.core import WikiMediaDumpParser
