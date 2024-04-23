@@ -6,8 +6,13 @@ import os
 from wikiparser import __version__ as version
 
 # Read requirements from requirements.txt
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
+requires = [
+    "lxml",
+    "mwparserfromhell",
+    "tqdm",
+    "requests",
+    "datasets"
+]
 
 setup(
     name='simple-wikiparser',
@@ -20,7 +25,7 @@ setup(
     author_email='biswajit2902@gmail.com',
     url='https://github.com/biswajit2903/SimpleWikiParser',
     license='Apache License 2.0',
-    install_requires=required,
+    install_requires=requires,
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3',
