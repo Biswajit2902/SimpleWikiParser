@@ -27,7 +27,7 @@ jobs:
         run: python setup.py sdist
 
       - name: Publish distribution to PyPI
-        uses: pypa/gh-action-pypi-publish@master
+        uses: pypa/gh-action-pypi-publish@release/v1.8
         with:
           password: ${{ secrets.secret_wikiparser }}
           repository_url: https://upload.pypi.org/legacy/
