@@ -3,7 +3,7 @@ An Simplified Wiki Data Parser
 
 ## Installation
 ```bash
-pip install git+https://github.com/Biswajit2902/SimpleWikiParser.git
+pip install simple-wikiparser
 ```
 
 ## Usage:
