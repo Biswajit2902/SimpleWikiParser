@@ -1,4 +1,4 @@
-name: CI
+name: An Simplified Wiki Data Parser
 
 on:
   push:
